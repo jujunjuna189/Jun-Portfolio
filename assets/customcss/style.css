@@ -91,6 +91,12 @@
     border-radius: 8px 8px 8px 8px !important;
 }
 /* .... */
+.card .card-body .right-bottom-image{
+    display: block;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
 .shadow-custom{
     box-shadow: 0px 4px 30px 5px rgba(0, 0, 0, 0.1);
 }
