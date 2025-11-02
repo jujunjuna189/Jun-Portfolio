@@ -1,0 +1,11 @@
+@keyframes fill-animation {
+    from {
+        background: conic-gradient(#fcd34d 0%,
+                #e5e7eb 0%);
+    }
+
+    to {
+        background: conic-gradient(#fcd34d calc(var(--p) * 1%),
+                #e5e7eb 0%);
+    }
+}

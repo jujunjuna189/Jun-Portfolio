@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujun Junaedi - Software Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'dark-primary': '#1A1C24',
+                        'dark-secondary': '#2C2E35',
+                        'accent-yellow': '#FFC107',
+                        'dark-tertiary': '#14161C'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body class="bg-dark-primary text-white font-sans">
+
+    <header class="container mx-auto px-6 py-4 flex justify-between items-center text-sm font-medium">
+        <div class="flex items-center space-x-1">
+            <div
+                class="w-6 h-6 bg-accent-yellow flex items-center justify-center font-bold text-dark-primary rounded-md">
+                P</div>
+            <span class="text-xl font-bold tracking-widest text-white hidden sm:block">ORTFOLIO</span>
+        </div>
+        <nav class="space-x-8 hidden md:flex">
+            <a href="#about" class="hover:text-accent-yellow transition duration-200">About</a>
+            <a href="#skills" class="hover:text-accent-yellow transition duration-200">Skills</a>
+            <a href="#projects" class="hover:text-accent-yellow transition duration-200">Projects</a>
+            <a href="#experience" class="hover:text-accent-yellow transition duration-200">Experience</a>
+        </nav>
+        <a href="#contact-form"
+            class="text-xs tracking-wider text-gray-400 hover:text-accent-yellow transition duration-200 uppercase">
+            All Creative Works, <span class="block">Selected Projects.</span>
+        </a>
+    </header>
+
+    <main class="container mx-auto px-6">
+
+        <section id="about"
+            class="pt-16 pb-24 md:pt-24 grid grid-cols-1 md:grid-cols-2 gap-10 border-b border-dark-secondary">
+            <div class="md:col-span-1 relative">
+                <div class="relative z-10">
+                    <div class="absolute left-7 bottom-24 lg:left-10 lg:bottom-20 transform space-y-4 block z-10">
+                        <a href="#" class="text-gray-400 hover:text-accent-yellow block text-4xl"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-accent-yellow block text-4xl"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-accent-yellow block text-4xl"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-accent-yellow block text-4xl"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+
+                    <h1 class="text-7xl lg:text-8xl font-extrabold leading-none mb-4 tracking-tight relative">
+                        Ujun <br>Junaedi.
+                    </h1>
+                    <div class="w-12 h-1 bg-accent-yellow mb-6"></div>
+
+                    <div class="overflow-hidden pt-20 -mt-28">
+                        <div
+                            class="w-full h-96 mt-6 md:h-[400px] overflow-visible rounded-lg relative bg-dark-secondary flex justify-center items-center">
+                            <img src="assets/img/img1.png" alt="Ujun Junaedi"
+                                class="h-[80rem] object-cover object-[-13rem_7rem] lg:object-[2rem_2rem]">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="md:col-span-1 pt-4 md:pt-24 lg:pl-16">
+                <p class="text-xs tracking-widest uppercase text-gray-500 mb-6">
+                    — Introduction
+                </p>
+                <h2 class="text-4xl font-semibold mb-6">
+                    Software <span class="text-accent-yellow">Engineer.</span>
+                </h2>
+                <p class="text-gray-400 leading-relaxed mb-8 max-w-sm">
+                    I am a software engineer who has been involved in software development for over 5 years and is a
+                    qualified Full Stack Developer. I love business and technology, and I am passionate about honing my
+                    skills and growing my company.
+                </p>
+                <a href="#"
+                    class="inline-block border border-accent-yellow text-accent-yellow px-6 py-2 text-sm font-medium hover:bg-accent-yellow hover:text-dark-primary transition duration-300">
+                    Download CV
+                </a>
+            </div>
+        </section>
+
+        <section id="skills" class="pt-16 pb-24 md:pt-24 gap-10 border-b border-dark-secondary">
+            <div class="leading-3 text-center">
+                <h2 class="text-3xl font-semibold ">Skills (Language & Framework)</h2>
+            </div>
+            <div class="mt-10 flex flex-wrap justify-center gap-5">
+                <div class="bg-dark-tertiary py-5 px-8 rounded-md border border-dark-secondary/70">
+                    <h2 class="text-xl font-semibold ">Front-End Developer</h2>
+                    <div class="flex flex-wrap gap-3 mt-4">
+                        <div
+                            class="bg-dark-secondary py-2 px-4 flex gap-1 rounded-full hover:bg-dark-secondary/70 transition duration-300 items-center">
+                            <div>
+                                <img src="assets/icon/vue-js.png" alt="Vue.Js" class="h-6">
+                            </div>
+                            <p class="font-semibold text-sm">Vue.Js</p>
+                        </div>
+                        <div
+                            class="bg-dark-secondary py-2 px-4 flex gap-1 rounded-full hover:bg-dark-secondary/70 transition duration-300 items-center">
+                            <div>
+                                <img src="assets/icon/react-js.png" alt="React.Js" class="h-6">
+                            </div>
+                            <p class="font-semibold text-sm">React.Js</p>
+                        </div>
+                        <div
+                            class="bg-dark-secondary py-2 px-4 flex gap-1 rounded-full hover:bg-dark-secondary/70 transition duration-300 items-center">
+                            <div>
+                                <img src="assets/icon/tailwind-css.png" alt="Tailwinds Css" class="h-6">
+                            </div>
+                            <p class="font-semibold text-sm">Tailwinds Css</p>
+                        </div>
+                        <div
+                            class="bg-dark-secondary py-2 px-4 flex gap-1 rounded-full hover:bg-dark-secondary/70 transition duration-300 items-center">
+                            <div>
+                                <img src="assets/icon/bootstrap.png" alt="Bootstrap" class="h-6">
+                            </div>
+                            <p class="font-semibold text-sm">Bootstrap</p>
+                        </div>
+                        <div
+                            class="bg-dark-secondary py-2 px-4 flex gap-1 rounded-full hover:bg-dark-secondary/70 transition duration-300 items-center">
+                            <div>
+                                <img src="assets/icon/html.png" alt="Html" class="h-6">
+                            </div>
+                            <p class="font-semibold text-sm">HTML</p>
+                        </div>
+                        <div
+                            class="bg-dark-secondary py-2 px-4 flex gap-1 rounded-full hover:bg-dark-secondary/70 transition duration-300 items-center">
+                            <div>
+                                <img src="assets/icon/css.png" alt="Css" class="h-6">
+                            </div>
+                            <p class="font-semibold text-sm">CSS</p>
+                        </div>
+                        <div
+                            class="bg-dark-secondary py-2 px-4 flex gap-1 rounded-full hover:bg-dark-secondary/70 transition duration-300 items-center">
+                            <div>
+                                <img src="assets/icon/javascript.png" alt="Javascript" class="h-6">
+                            </div>
+                            <p class="font-semibold text-sm">JS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-dark-tertiary py-5 px-8 rounded-md border border-dark-secondary/70">
+                    <h2 class="text-xl font-semibold ">Back-End Developer</h2>
+                    <div class="flex flex-wrap gap-3 mt-4">
+                        <div
+                            class="bg-dark-secondary py-2 px-4 flex gap-1 rounded-full hover:bg-dark-secondary/70 transition duration-300 items-center">
+                            <div>
+                                <img src="assets/icon/laravel.png" alt="Laravel" class="h-6">
+                            </div>
+                            <p class="font-semibold text-sm">Laravel</p>
+                        </div>
+                        <div
+                            class="bg-dark-secondary py-2 px-4 flex gap-1 rounded-full hover:bg-dark-secondary/70 transition duration-300 items-center">
+                            <div>
+                                <img src="assets/icon/codeigniter.png" alt="Codeigniter" class="h-6">
+                            </div>
+                            <p class="font-semibold text-sm">CodeIgniter</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-dark-tertiary py-5 px-8 rounded-md border border-dark-secondary/70">
+                    <h2 class="text-xl font-semibold ">Database Management</h2>
+                    <div class="flex flex-wrap gap-3 mt-4">
+                        <div
+                            class="bg-dark-secondary py-2 px-4 flex gap-1 rounded-full hover:bg-dark-secondary/70 transition duration-300 items-center">
+                            <div>
+                                <img src="assets/icon/mysql.png" alt="MySql" class="h-6">
+                            </div>
+                            <p class="font-semibold text-sm">MySql</p>
+                        </div>
+                        <div
+                            class="bg-dark-secondary py-2 px-4 flex gap-1 rounded-full hover:bg-dark-secondary/70 transition duration-300 items-center">
+                            <div>
+                                <img src="assets/icon/firebase.png" alt="Firebase" class="h-6">
+                            </div>
+                            <p class="font-semibold text-sm">Firebase</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-dark-tertiary py-5 px-8 rounded-md border border-dark-secondary/70">
+                    <h2 class="text-xl font-semibold ">Mobile Developer</h2>
+                    <div class="flex flex-wrap gap-3 mt-4">
+                        <div
+                            class="bg-dark-secondary py-2 px-4 flex gap-1 rounded-full hover:bg-dark-secondary/70 transition duration-300 items-center">
+                            <div>
+                                <img src="assets/icon/flutter.png" alt="Flutter" class="h-6">
+                            </div>
+                            <p class="font-semibold text-sm">Flutter</p>
+                        </div>
+                        <div
+                            class="bg-dark-secondary py-2 px-4 flex gap-1 rounded-full hover:bg-dark-secondary/70 transition duration-300 items-center">
+                            <div>
+                                <img src="assets/icon/react-js.png" alt="React Native" class="h-6">
+                            </div>
+                            <p class="font-semibold text-sm">React Native</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-dark-tertiary py-5 px-8 rounded-md border border-dark-secondary/70">
+                    <h2 class="text-xl font-semibold ">DevOps</h2>
+                    <div class="flex flex-wrap gap-3 mt-4">
+                        <div
+                            class="bg-dark-secondary py-2 px-4 flex gap-1 rounded-full hover:bg-dark-secondary/70 transition duration-300 items-center">
+                            <div>
+                                <img src="assets/icon/github.png" alt="Github" class="h-6">
+                            </div>
+                            <p class="font-semibold text-sm">Github</p>
+                        </div>
+                        <div
+                            class="bg-dark-secondary py-2 px-4 flex gap-1 rounded-full hover:bg-dark-secondary/70 transition duration-300 items-center">
+                            <div>
+                                <img src="assets/icon/gitlab.png" alt="GitLab" class="h-6">
+                            </div>
+                            <p class="font-semibold text-sm">GitLab</p>
+                        </div>
+                        <div
+                            class="bg-dark-secondary py-2 px-4 flex gap-1 rounded-full hover:bg-dark-secondary/70 transition duration-300 items-center">
+                            <div>
+                                <img src="assets/icon/linux.png" alt="Linux" class="h-6">
+                            </div>
+                            <p class="font-semibold text-sm">Linux</p>
+                        </div>
+                        <div
+                            class="bg-dark-secondary py-2 px-4 flex gap-1 rounded-full hover:bg-dark-secondary/70 transition duration-300 items-center">
+                            <div>
+                                <img src="assets/icon/nginx.png" alt="Nginx" class="h-6">
+                            </div>
+                            <p class="font-semibold text-sm">Nginx</p>
+                        </div>
+                        <div
+                            class="bg-dark-secondary py-2 px-4 flex gap-1 rounded-full hover:bg-dark-secondary/70 transition duration-300 items-center">
+                            <div>
+                                <img src="assets/icon/cpanel.png" alt="cPanel" class="h-6">
+                            </div>
+                            <p class="font-semibold text-sm">cPanel</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="py-20">
+            <h2 class="text-3xl font-semibold text-center mb-10">Selected Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <div class="bg-dark-secondary p-6 rounded-lg hover:bg-dark-secondary/70 transition duration-300">
+                    <span class="text-xs text-gray-400 block mb-2">Mobile App</span>
+                    <h3 class="text-xl font-bold mb-3">Hris Mobile</h3>
+                    <div class="bg-dark-tertiary flex items-center justify-center rounded mb-4 overflow-hidden">
+                        <img src="assets/porto/Slide 4_3 - 13.png" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <!-- <a href="#" class="text-accent-yellow text-sm font-medium hover:underline">Detail Project →</a> -->
+                </div>
+
+                <div class="bg-dark-secondary p-6 rounded-lg hover:bg-dark-secondary/70 transition duration-300">
+                    <span class="text-xs text-gray-400 block mb-2">Mobile App</span>
+                    <h3 class="text-xl font-bold mb-3">E-Commerce Khas</h3>
+                    <div class="bg-dark-tertiary flex items-center justify-center rounded mb-4 overflow-hidden">
+                        <img src="assets/porto/Slide 4_3 - 14.png" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <!-- <a href="#" class="text-accent-yellow text-sm font-medium hover:underline">Detail Project →</a> -->
+                </div>
+
+                <div class="bg-dark-secondary p-6 rounded-lg hover:bg-dark-secondary/70 transition duration-300">
+                    <span class="text-xs text-gray-400 block mb-2">Mobile App</span>
+                    <h3 class="text-xl font-bold mb-3">CSID SupperApps</h3>
+                    <div class="bg-dark-tertiary flex items-center justify-center rounded mb-4 overflow-hidden">
+                        <img src="assets/porto/Slide 4_3 - 15.png" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <!-- <a href="#" class="text-accent-yellow text-sm font-medium hover:underline">Detail Project →</a> -->
+                </div>
+
+                <div class="bg-dark-secondary p-6 rounded-lg hover:bg-dark-secondary/70 transition duration-300">
+                    <span class="text-xs text-gray-400 block mb-2">Mobile App</span>
+                    <h3 class="text-xl font-bold mb-3">Menarmed Mobile</h3>
+                    <div class="bg-dark-tertiary flex items-center justify-center rounded mb-4 overflow-hidden">
+                        <img src="assets/porto/Slide 4_3 - 16.png" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <!-- <a href="#" class="text-accent-yellow text-sm font-medium hover:underline">Detail Project →</a> -->
+                </div>
+
+                <div class="bg-dark-secondary p-6 rounded-lg hover:bg-dark-secondary/70 transition duration-300">
+                    <span class="text-xs text-gray-400 block mb-2">Landing Page</span>
+                    <h3 class="text-xl font-bold mb-3">Harsa Gemilang</h3>
+                    <div class="bg-dark-tertiary flex items-center justify-center rounded mb-4 overflow-hidden">
+                        <img src="assets/porto/Slide 4_3 - 1.png" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <!-- <a href="#" class="text-accent-yellow text-sm font-medium hover:underline">Detail Project →</a> -->
+                </div>
+
+                <div class="bg-dark-secondary p-6 rounded-lg hover:bg-dark-secondary/70 transition duration-300">
+                    <span class="text-xs text-gray-400 block mb-2">Landing Page</span>
+                    <h3 class="text-xl font-bold mb-3">Ono Law Firm</h3>
+                    <div class="bg-dark-tertiary flex items-center justify-center rounded mb-4 overflow-hidden">
+                        <img src="assets/porto/Slide 4_3 - 2.png" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <!-- <a href="#" class="text-accent-yellow text-sm font-medium hover:underline">Detail Project →</a> -->
+                </div>
+
+                <div class="bg-dark-secondary p-6 rounded-lg hover:bg-dark-secondary/70 transition duration-300">
+                    <span class="text-xs text-gray-400 block mb-2">Landing Page</span>
+                    <h3 class="text-xl font-bold mb-3">LSP MKBI</h3>
+                    <div class="bg-dark-tertiary flex items-center justify-center rounded mb-4 overflow-hidden">
+                        <img src="assets/porto/Slide 4_3 - 3.png" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <!-- <a href="#" class="text-accent-yellow text-sm font-medium hover:underline">Detail Project →</a> -->
+                </div>
+
+                <div class="bg-dark-secondary p-6 rounded-lg hover:bg-dark-secondary/70 transition duration-300">
+                    <span class="text-xs text-gray-400 block mb-2">Landing Page</span>
+                    <h3 class="text-xl font-bold mb-3">LP3I</h3>
+                    <div class="bg-dark-tertiary flex items-center justify-center rounded mb-4 overflow-hidden">
+                        <img src="assets/porto/Slide 4_3 - 4.png" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <!-- <a href="#" class="text-accent-yellow text-sm font-medium hover:underline">Detail Project →</a> -->
+                </div>
+
+                <div class="bg-dark-secondary p-6 rounded-lg hover:bg-dark-secondary/70 transition duration-300">
+                    <span class="text-xs text-gray-400 block mb-2">Landing Page</span>
+                    <h3 class="text-xl font-bold mb-3">Gunung Prau</h3>
+                    <div class="bg-dark-tertiary flex items-center justify-center rounded mb-4 overflow-hidden">
+                        <img src="assets/porto/Slide 4_3 - 5.png" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <!-- <a href="#" class="text-accent-yellow text-sm font-medium hover:underline">Detail Project →</a> -->
+                </div>
+
+                <div class="bg-dark-secondary p-6 rounded-lg hover:bg-dark-secondary/70 transition duration-300">
+                    <span class="text-xs text-gray-400 block mb-2">E-Commerce</span>
+                    <h3 class="text-xl font-bold mb-3">Bakal Busanalokal.id</h3>
+                    <div class="bg-dark-tertiary flex items-center justify-center rounded mb-4 overflow-hidden">
+                        <img src="assets/porto/Slide 4_3 - 6.png" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <!-- <a href="#" class="text-accent-yellow text-sm font-medium hover:underline">Detail Project →</a> -->
+                </div>
+
+                <div class="bg-dark-secondary p-6 rounded-lg hover:bg-dark-secondary/70 transition duration-300">
+                    <span class="text-xs text-gray-400 block mb-2">Web Aplication</span>
+                    <h3 class="text-xl font-bold mb-3">Handex System</h3>
+                    <div class="bg-dark-tertiary flex items-center justify-center rounded mb-4 overflow-hidden">
+                        <img src="assets/porto/Slide 4_3 - 7.png" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <!-- <a href="#" class="text-accent-yellow text-sm font-medium hover:underline">Detail Project →</a> -->
+                </div>
+
+                <div class="bg-dark-secondary p-6 rounded-lg hover:bg-dark-secondary/70 transition duration-300">
+                    <span class="text-xs text-gray-400 block mb-2">Admin Page</span>
+                    <h3 class="text-xl font-bold mb-3">Inventory</h3>
+                    <div class="bg-dark-tertiary flex items-center justify-center rounded mb-4 overflow-hidden">
+                        <img src="assets/porto/Slide 4_3 - 8.png" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <!-- <a href="#" class="text-accent-yellow text-sm font-medium hover:underline">Detail Project →</a> -->
+                </div>
+
+                <div class="bg-dark-secondary p-6 rounded-lg hover:bg-dark-secondary/70 transition duration-300">
+                    <span class="text-xs text-gray-400 block mb-2">Web Aplication</span>
+                    <h3 class="text-xl font-bold mb-3">E-Surat</h3>
+                    <div class="bg-dark-tertiary flex items-center justify-center rounded mb-4 overflow-hidden">
+                        <img src="assets/porto/Slide 4_3 - 9.png" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <!-- <a href="#" class="text-accent-yellow text-sm font-medium hover:underline">Detail Project →</a> -->
+                </div>
+
+                <div class="bg-dark-secondary p-6 rounded-lg hover:bg-dark-secondary/70 transition duration-300">
+                    <span class="text-xs text-gray-400 block mb-2">Web Aplication</span>
+                    <h3 class="text-xl font-bold mb-3">Good Tickets</h3>
+                    <div class="bg-dark-tertiary flex items-center justify-center rounded mb-4 overflow-hidden">
+                        <img src="assets/porto/Slide 4_3 - 10.png" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <!-- <a href="#" class="text-accent-yellow text-sm font-medium hover:underline">Detail Project →</a> -->
+                </div>
+            </div>
+        </section>
+
+
+        <section id="experience" class="py-20 grid grid-cols-1 lg:grid-cols-3 gap-10">
+
+            <div class="lg:col-span-2">
+                <div class="mb-1">
+                    <p class="text-xs tracking-widest uppercase text-gray-500 mb-6">
+                        — Experience
+                    </p>
+                    <h3 class="text-2xl font-semibold mb-6">
+                        My career & Education.
+                    </h3>
+                    <a class="text-accent-yellow text-lg font-medium hover:underline flex items-center">
+                        MOTTO
+                    </a>
+                </div>
+
+                <div class="mb-10">
+                    <h3 class="text-3xl font-light italic leading-relaxed text-gray-200">
+                        “Connecting Opportunities, Building Success.”
+                    </h3>
+                    <h6 class="text-xl font-light italic leading-relaxed text-gray-200 mb-10">
+                        "Menghubungkan peluang, membangun kesuksesan."
+                    </h6>
+
+                    <div class="flex space-x-10 mb-10 border-b border-dark-secondary pb-10">
+                        <div>
+                            <span class="text-4xl font-bold text-accent-yellow block">5</span>
+                            <span class="text-xs text-gray-400 uppercase tracking-wider">Years of <br>Experience</span>
+                        </div>
+                        <div>
+                            <span class="text-4xl font-bold text-accent-yellow block">3</span>
+                            <span class="text-xs text-gray-400 uppercase tracking-wider">Years Experience in
+                                <br>Professional Career</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <div class="bg-accent-yellow p-6 rounded-lg text-dark-primary">
+                        <span class="text-xs text-dark-primary opacity-70 block mb-2">Mobile Apps.</span>
+                        <p class="text-2xl font-bold mb-1">7+ Projects</p>
+                    </div>
+                    <div class="bg-dark-secondary p-6 rounded-lg">
+                        <span class="text-xs text-gray-400 block mb-2">Website.</span>
+                        <p class="text-2xl font-bold mb-1">50+ Projects</p>
+                    </div>
+                    <div class="bg-dark-secondary p-6 rounded-lg">
+                        <span class="text-xs text-gray-400 block mb-2">Language & Framework.</span>
+                        <p class="text-2xl font-bold mb-1">13+</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:col-span-1 border-l border-dark-secondary lg:pl-10 space-y-16">
+
+                <div class="pt-4">
+                    <p class="text-xs tracking-widest uppercase text-gray-500 mb-6">
+                        — CONTACT
+                    </p>
+                    <div class="bg-dark-secondary p-6 rounded-lg shadow-lg">
+                        <div class="w-12 h-12 bg-gray-300 rounded-full mb-4 overflow-hidden">
+                            <img src="assets/img/img1.png" alt="UJUN JUNAEDI"
+                                class="w-[300px] h-[300px] object-cover object-[-75px_-80px]">
+                        </div>
+                        <p class="text-gray-300 italic mb-4">
+                            UJUN JUNAEDI
+                        </p>
+                        <p class="text-sm font-semibold text-accent-yellow">Software Engineer</p>
+                        <p class="text-xs text-gray-500">ujunjunaedi18@gmail.com</p>
+                    </div>
+                </div>
+
+                <div id="contact-form">
+                    <p class="text-xs tracking-widest uppercase text-gray-500 mb-6">
+                        — Send My Email
+                    </p>
+                    <h3 class="text-2xl font-semibold mb-6">
+                        Contact me immediately with my email.
+                    </h3>
+
+                    <form class="space-y-4" action="https://formsubmit.co/ujunjunaedi18@email.com" method="POST">
+                        <input type="text" placeholder="Your name" required
+                            class="w-full p-3 bg-dark-secondary border border-dark-secondary focus:border-accent-yellow outline-none transition duration-200">
+                        <input type="email" placeholder="Your email" required
+                            class="w-full p-3 bg-dark-secondary border border-dark-secondary focus:border-accent-yellow outline-none transition duration-200">
+                        <textarea name="message" placeholder="What message would you like to send?" rows="4"
+                            class="w-full p-3 bg-dark-secondary border border-dark-secondary focus:border-accent-yellow outline-none transition duration-200"></textarea>
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://demo-v2.bermentor.com/">
+                        <button type="submit"
+                            class="w-full bg-accent-yellow text-dark-primary font-bold py-3 rounded hover:bg-yellow-400 transition duration-300">
+                            Send me Email <i class="fas fa-paper-plane ml-2"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+
+        <footer class="py-10 text-center text-gray-500 text-xs">
+            &copy; 2025 Ujun Junaedi. All rights reserved.
+        </footer>
+
+    </main>
+</body>
+
+</html>
